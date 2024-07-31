@@ -1,0 +1,115 @@
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.slider-item {
+  position: relative;
+}
+
+.slider-image {
+  width: 100%;
+  height: 100vh; /* Tam ekran yüksekliği */
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  color: white;
+  z-index: 1;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.5);  /* Arka planı daha şeffaf yap */
+  padding: 20px;  /* Yazıların etrafına boşluk ekle */
+  border-radius: 10px;  /* Köşeleri yuvarla */
+  max-width: 80%;
+  transition: all 0.3s ease-in-out;
+}
+
+.overlay h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.overlay p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.overlay button {
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .overlay {
+    bottom: 15%;
+    left: 5%;
+    max-width: 90%;
+  }
+  
+  .overlay h1 {
+    font-size: 28px;
+  }
+
+  .overlay p {
+    font-size: 16px;
+  }
+
+  .overlay button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .overlay {
+    bottom: 20%;
+    left: 5%;
+    max-width: 90%;
+  }
+
+  .overlay h1 {
+    font-size: 22px;
+  }
+
+  .overlay p {
+    font-size: 14px;
+  }
+
+  .overlay button {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 360px) {
+  .overlay {
+    bottom: 25%;
+    left: 5%;
+    max-width: 90%;
+    padding: 10px;
+  }
+
+  .overlay h1 {
+    font-size: 18px;
+  }
+
+  .overlay p {
+    font-size: 12px;
+  }
+
+  .overlay button {
+    font-size: 10px;
+    padding: 8px 16px;
+  }
+}

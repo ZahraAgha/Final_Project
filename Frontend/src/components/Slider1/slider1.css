@@ -1,0 +1,128 @@
+
+
+
+ 
+
+/* bura */
+/* #app { 
+  height: 100%; 
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+}
+
+.thumbnail-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.thumbnail {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 2px;
+}
+
+.swiper {
+  width: 80%;
+  height: 100%;
+}
+
+.custom-pagination {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #000;
+  margin: 5px 0;
+  opacity: 0.2;
+  transition: opacity 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+} */
+
+
+
+
+/* .simple-slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.slick-slider {
+  width: 60%; 
+}
+
+.slick-dots.slick-thumb {
+  display: flex !important;
+  flex-direction: column !important;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  position: absolute !important;
+  left: -100px !important; 
+  top: 50% !important; 
+  transform: translateY(-50%) !important;
+}
+
+.slick-dots.slick-thumb li {
+  margin: 15px 0 !important; 
+}
+
+.slick-dots.slick-thumb li img {
+  width: 70px !important; 
+  height: auto !important;
+  cursor: pointer !important;
+}
+
+.slick-slide img {
+  width: 100%;
+  height: auto;
+} */
+
+
+
+
+
+
